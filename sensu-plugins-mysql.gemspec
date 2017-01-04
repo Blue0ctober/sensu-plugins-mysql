@@ -36,6 +36,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'inifile', '3.0.0'
   s.add_runtime_dependency 'ruby-mysql', '~> 2.9'
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
+  s.add_runtime_dependency 'dentaku', '2.0.4'
 
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
   s.add_development_dependency 'bundler',                   '~> 1.7'
